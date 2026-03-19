@@ -143,10 +143,5 @@ This project demonstrates the ability to:
 * Build RESTful APIs with Spring Boot
 * Work with Java collections and OOP principles
 
----
-
-## 👨‍💻 Author
-
-**Avaneesh Sattenapalli**
 
 ---
