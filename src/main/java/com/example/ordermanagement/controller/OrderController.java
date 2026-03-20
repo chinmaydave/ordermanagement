@@ -22,6 +22,11 @@ public class OrderController {
         return orderService.getAllProducts();
     }
 
+    @GetMapping("/orders")
+    public List<Order> getOrders() {
+        return orderService.getAllOrders();
+    }
+
     @PostMapping("/orders")
     public Order createOrder(@RequestParam int orderId) {
         return orderService.createOrder(orderId);

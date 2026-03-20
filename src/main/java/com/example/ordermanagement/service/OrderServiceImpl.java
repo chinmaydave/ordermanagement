@@ -40,6 +40,11 @@ public class OrderServiceImpl implements OrderService {
     }
 
     @Override
+    public List<Order> getAllOrders() {
+        return new ArrayList<>(orderStorage.values());
+    }
+
+    @Override
     public void addProduct(Product product) {
         ValidationUtil.validateObject(product, "Product");
         productCatalog.put(product.getId(), product);

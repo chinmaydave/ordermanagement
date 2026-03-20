@@ -13,6 +13,8 @@ public interface OrderService {
 
     Order getOrder(int orderId);
     
+    List<Order> getAllOrders();
+    
     void addProduct(Product product);
 
     double getOrderTotal(Order order);
