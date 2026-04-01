@@ -8,26 +8,6 @@ The system allows users to manage products, create orders, add items to orders, 
 
 ---
 
-## 🧠 Key Concepts Demonstrated
-
-* **Object-Oriented Programming (OOP)**
-
-  * Encapsulation (private fields + getters)
-  * Composition (Order → OrderItems → Product)
-  * Abstraction (service interface)
-
-* **Backend Architecture**
-
-  * Controller layer (handles HTTP requests)
-  * Service layer (business logic)
-  * Model layer (data representation)
-
-* **Spring Boot Features**
-
-  * REST APIs using `@RestController`
-  * Dependency Injection
-  * Annotation-based configuration
-
 * **Java Collections**
 
   * `Map<Integer, Product>` for product catalog
@@ -132,16 +112,4 @@ http://localhost:8080/api/products
 * Improve exception handling with global handlers
 * Add Swagger API documentation
 
----
 
-## 🎯 Why This Project Matters
-
-This project demonstrates the ability to:
-
-* Design and implement backend systems
-* Structure code using industry best practices
-* Build RESTful APIs with Spring Boot
-* Work with Java collections and OOP principles
-
-
----
